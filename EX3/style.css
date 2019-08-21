@@ -1,0 +1,27 @@
+#bannerimage {
+  width: 100%;
+  background-image: url(https://cdn.pixabay.com/photo/2013/04/01/03/45/cat-98359_960_720.jpg);
+  height: 405px;
+   background-position: center;
+}
+
+
+h2 {
+      color:#5220F9;
+      font-size: 30px;
+      text-shadow:1px,1px,4px,black;
+}
+
+#intro .first em {
+  color:#EC08D3;
+  background-color:white;
+  }
+
+#intro .second em {
+  color:red;
+}
+
+p.normal {
+  font style:italic;
+  color:green;
+}
