@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    flex-direction: column;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.Astro{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Rauch{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
+
+.Space{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+}
