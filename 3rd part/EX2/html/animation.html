@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <div class="photo">
+    <img src="photo/kleks.jpg" width="400px"; height="auto";>
+    </div>
+    <style>
+    body{
+        animation-name: manger;
+        -webkit-animation-name: manger; 
+        -webkit-animation-duration: 10s; 
+        animation-duration: 10s;
+    }
+    .photo img{
+        position: relative;
+        -webkit-animation-name: example; 
+        -webkit-animation-duration: 10s; 
+        animation-name: example;
+        animation-duration: 10s;
+        }
+        @keyframes example{
+        0%   {left:0px;top:0px;}
+        25%  {left:1200px; top:0px;}
+        50%  {left:1200px;top:500px;}
+        75%  {left:0px; top:500px;}
+        100% {left:0px;top:0px;}
+        }
+        @keyframes manger{
+        0%   {background-color: red;}
+        25%  {background-color:yellow;}
+        50%  {background-color: green;}
+        75%  {background-color: blue;}
+        100% {background-color: violet;}
+        }
+    
+    </style>
+
+</body>
+</html>
