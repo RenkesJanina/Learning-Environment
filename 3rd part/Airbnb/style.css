@@ -1,0 +1,326 @@
+body {
+    margin: 0;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.hero {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    background-image: url("photos/lighthouse.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    overflow:hidden;
+    display:flex;
+    flex-direction: column;
+    
+}
+
+.hero-inner h1 {
+    font-size: 85px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+
+.hero-inner h2 {
+    font-size: 65px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+}
+
+.hero .btn {
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white; 
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid #F74D38;
+    border-radius: 20px;
+    background-color: #F74D38;
+}
+.hero .btn:hover{
+    box-shadow: 0 0 20px 0 #38F7F7;
+}
+
+.click .btn{
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white; 
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid #F74D38;
+    border-radius: 20px;
+    background-color: #F74D38;
+    text-align: center;
+}
+
+.hero2-3{
+    display:flex;
+    flex-direction: row;
+}
+
+.search{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.mega{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.photo1{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.hans{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto;
+}
+
+.Item1 img{
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.Hugo{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto; 
+}
+
+.Item11 img{
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.Anne{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto; 
+}
+
+.Item12 img{
+    width: 500px;
+    height: auto;
+    margin-top: 50px;
+}
+
+.Photo2{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eins>img{
+    width: 350px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.zwei>img{
+    width: 350px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.drei>img{
+    width:350px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.vier>img{
+    width: 350px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.circular--square {
+  border-radius: 25px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .Item2{
+      margin-bottom: 50px;
+      margin-top: 50px
+  }
+
+  .Item21{
+    margin-bottom: 50px;
+    margin-top: 50px;
+  }
+
+  .Item22{
+      margin-bottom: 50px;
+      margin-top: 50px;
+  }
+  .Item32{
+      display: flex;
+      flex-direction: row;
+  }
+
+  .frau{
+      margin-left: 50px;
+  }
+
+  .Item31{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .Item3{
+    display: flex;
+    flex-direction: row;
+  }
+
+  hr{
+    width: 95%; 
+    height: 1px; 
+    margin: 0 auto;
+    color: grey;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .zweit{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .erst{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .drittes{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .viertes{
+    width: 350px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+  }
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: center; 
+
+}
+
+.assitance{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto; 
+}
+
+.charte{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto; 
+}
+
+.hotes{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: auto; 
+}
+
+.symbol{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.symbol{
+    font-size: 50px;
+    color: #2EB0B0;
+}
+
+.Ou{
+    margin-left: 250px;
+}
+
+.voyageurs{
+    margin-right: 250px;
+}
+
+.click .btn:hover{
+    box-shadow: 0 0 20px 0 #38F7F7;
+}
+
+.click2 .btn{
+    display: block;
+    width: 200px;
+    padding: 1em;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: auto;
+    color: white; 
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid #F74D38;
+    border-radius: 20px;
+    background-color: #F74D38;
+    justify-content: left;
+}
+
+.click2 .btn:hover{
+    box-shadow: 0 0 20px 0 #38F7F7;
+}
+
+h2{
+    margin-left: 15px;
+    margin-top: 50px;
+}
+
+.others{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 15px;
+    margin-left: 15px;
+}
