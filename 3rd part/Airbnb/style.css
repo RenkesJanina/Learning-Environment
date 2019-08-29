@@ -3,11 +3,12 @@ body {
     font-family: sans-serif;
     display: flex;
     flex-direction: column;
+    color: #808587;
 }
 
 .hero {
-    width: 100vw;
-    height: 100vh;
+    width: 99vw;
+    height: 99vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,33 +80,32 @@ body {
 .search{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 
 .mega{
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    margin-left: 10px;
-    margin-right: 10px;
+    text-align: center;
+    width: 100%;
+    height: auto;
 }
 
 .photo1{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .hans{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     height: auto;
+    margin-left: 150px;
 }
 
 .Item1 img{
-    width: 500px;
+    width: 400px;
     height: auto;
     margin-top: 50px;
 }
@@ -113,12 +113,13 @@ body {
 .Hugo{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     height: auto; 
+    margin-left: 150px;
 }
 
 .Item11 img{
-    width: 500px;
+    width: 400px;
     height: auto;
     margin-top: 50px;
 }
@@ -126,12 +127,13 @@ body {
 .Anne{
     display: flex;
     flex-direction: column;
-    width: 500px;
+    width: 400px;
     height: auto; 
+    margin-left: 150px;
 }
 
 .Item12 img{
-    width: 500px;
+    width: 400px;
     height: auto;
     margin-top: 50px;
 }
@@ -139,31 +141,30 @@ body {
 .Photo2{
     display:flex;
     flex-direction: row;
-    justify-content: space-between;
 }
 
 .eins>img{
     width: 350px;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .zwei>img{
     width: 350px;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .drei>img{
     width:350px;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .vier>img{
     width: 350px;
     height: auto;
-    margin-bottom: 50px;
+    margin-bottom: 10px;
 }
 
 .circular--square {
@@ -174,17 +175,17 @@ body {
 
   .Item2{
       margin-bottom: 50px;
-      margin-top: 50px
+      margin-top: 20px
   }
 
   .Item21{
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 20px;
   }
 
   .Item22{
       margin-bottom: 50px;
-      margin-top: 50px;
+      margin-top: 20px;
   }
   .Item32{
       display: flex;
@@ -219,6 +220,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
   }
 
   .erst{
@@ -226,6 +228,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
   }
 
   .drittes{
@@ -233,6 +236,7 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
   }
 
   .viertes{
@@ -240,12 +244,12 @@ body {
     height: auto;
     display: flex;
     flex-direction: column;
+    margin-left: 80px;
   }
 
 .information{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     text-align: center; 
 
 }
@@ -254,14 +258,17 @@ body {
     display: flex;
     flex-direction: column;
     width: 500px;
-    height: auto; 
+    height: auto;
+    margin-left: 80px; 
 }
+
 
 .charte{
     display: flex;
     flex-direction: column;
     width: 500px;
     height: auto; 
+    margin-left: 80px;
 }
 
 .hotes{
@@ -269,6 +276,7 @@ body {
     flex-direction: column;
     width: 500px;
     height: auto; 
+    margin-left: 80px;
 }
 
 .symbol{
@@ -282,11 +290,15 @@ body {
 }
 
 .Ou{
-    margin-left: 250px;
+    margin-left: 450px;
 }
 
 .voyageurs{
-    margin-right: 250px;
+    margin-left: 150px;
+}
+
+.depart{
+    margin-left: 150px; 
 }
 
 .click .btn:hover{
@@ -314,8 +326,7 @@ body {
 }
 
 h2{
-    margin-left: 15px;
-    margin-top: 50px;
+   
 }
 
 .others{
@@ -323,4 +334,89 @@ h2{
     margin-bottom: 50px;
     font-size: 15px;
     margin-left: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: row;
+    color: #9DA0A0;
+    margin-left: 200px;
+}
+
+.h4{
+    color: #9DA0A0;
+    font-weight: bold;
+}
+
+.social{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    font-size: 30px;
+}
+
+.poo{
+    color: #9DA0A0;
+    margin-left: 100px;
+}
+.social a{
+    color: #9DA0A0;
+}
+
+.stern{
+    color: #11AAE3;
+    margin-bottom: 20px;
+    margin-top: 15px;
+}
+.text{
+    color: #11AAE3;
+}
+
+h3 i{
+    font-size: 50px;
+    color: yellowgreen;
+}
+
+.alles{
+    display:flex;
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+    height: auto;
+   
+}
+
+.social a:hover{
+    box-shadow: 0 0 20px 0 #38F7F7;
+}
+
+.head2{
+    text-align: left;
+    margin-left: 100px;
+}
+
+.click2{
+    margin-left: 100px;
+}
+
+.others{
+    margin-left: 100px;
+    text-align: left;
+}
+
+.Herberge{
+    margin-left:250px;
+}
+
+.decouvre{
+    margin-left: 250px;
+}
+
+.socialall{
+    margin-left: 250px;
+}
+
+.ABC{
+    color: #808587;
 }
