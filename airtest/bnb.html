@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>AirBnB</title>
+    <link src="stylesheet" href="style.css">
+</head>
+<header>
+        <img src="photos/lighthouse.jpg">
+                <h1>
+                        <svg <svg id="eins" width="270" height="150">
+                                <text x="1" y="100">
+                                  Réservez un sejour. Accueillez des voyageurs. Directement sur AirBnB.
+                                </text>
+                              </svg>
+                                </text>
+                            </h1>
+                            <div class="b1">
+                    <p>Trouvez des logements de des activités</p>
+                    <button>Explore</button>
+                </div>
+                <div class="b2">
+                    <p>Réservez un sejour</p>
+                    <button>Accueiller</button>
+                </div>
+</header>
+<body>
+    <h2>Reservez des logements et des epériences uniques</h2>
+    <div class="search">
+        <div class="Ou">
+            <form autocomplete="off">
+                <label for="ou">Où?</label>
+                    <input id = "where" type="text" list="places" placeholder="Partout">
+                    <datalist id="places">
+                        <option value="London"></option>
+                        <option value="Paris"></option>
+                        <option value="Brussels"></option>
+                        <option value="Düssseldorf"></option>
+                        <option value="Köln"></option>
+                        <option value="Berlin"></option>
+                        <option value="Amsterdam"></option>
+                        <option value="Rom"></option>
+                        <option value="Budapest"></option>
+                </datalist>
+            </form>
+        </div>
+        <div class="depart">
+            <form autocomplete="off">       
+                <div class='picker'>
+                    <label for="fromperiod">Arrivé dt Depart</label>
+                    <input input type="date" id="start" name="trip-start"
+                    value="jj/mm/yyyy"
+                    min="date" max="31-12-2020">
+                    <label for="toperiod">-</label>
+                    <input input type="date" id="end" name="trip-end">
+                    </div>
+            </form>
+        </div>
+        <div class="voyageurs">
+            <form autocomplete="off">
+                <label for="voyageurs">Voyageurs</label>
+                <input id="text" type="text" list="voyageurs" placeholder="1 voyageur"> 
+                <datalist id="voyageurs">
+                    <option value="1 voyageur"></option>
+                    <option value="2 voyageurs"></option>
+                    <option value="3 voyageurs"></option>
+                    <option value="4 voyageurs"></option>
+                    <option value="5 voyageurs"></option>
+                    <option value="6 voyageurs"></option>
+                    <option value="7 voyageurs"></option>
+                    <option value="8 voyageurs"></option>
+                    <option value="Trop des voyageurs!"></option>  
+                </datalist>           
+            </form>
+        </div>
+        <div class="click">
+             <button onclick="Search"()">Rechercher</button>
+        </div>
+    </div>
+    <div class="mega">
+        <h2> Belgique: ce que les autres voyageurs ont pensé de leur logement</h2>
+        <div class="photo1">
+            <div class="Item1">
+                <img src="photos/houses/berge.jpg">
+            </div>
+            <div class="Item2">
+                /*descriptif*/
+            </div>
+            <div class="Item3">
+                <img src="photos/Hans.jpg">
+                <p>Some text</p>
+            </div>
+            <div class="Item1.1">
+                    <img src="photos/houses/studio.jpg">
+            </div>
+            <div class="Item2.1">
+                /*descriptif*/
+            </div>
+            <div class="Item3.1">
+                <img src="photos/Hugo.jpg">
+                <p>some text</p>
+            </div>
+            <div class="Item1.2">
+                <img src="photos/houses/appart.jpg">
+            </div>
+            <div class="Item2.2">
+               /*descriptif*/
+            </div>
+            <div class="Item3.2">
+               <img src="photos/anne.jpg">
+               <p>some text</p>
+            </div>
+        </div>
+        /*vertikale linie nicht ganz durch gezogen*/
+        <h2>Voyager avec AirBnB</h2>
+        <div class="information">
+            <div class="assitance">
+                <i class="far fa-heart"></i>
+                <p>some text</p>
+            </div>
+            <div class="charte">
+                <i class="fas fa-home"></i>
+                <p>some text</p>
+            </div>
+            <div class="hotes">
+                <i class="fas fa-user-lock"></i>
+                <p>some text</p>
+            </div>
+            /*vertikale linie nicht ganz durch gezogen*/
+        </div>
+        <h2>Reservez à l'instant à Belgiaue</h2>
+        <div class="Photo2">
+            <div class="erst">
+                <img src="photos/houses/villa.jpg">
+                <p>some text</p>
+            </div>
+            <div class="zweit">
+                <img src="photos/houses/blauesbett.jpg">
+                <p>some text</p>
+            </div>
+            <div class="drittes">
+                <img src="photos/houses/mordern.jpg">
+                <p>some text</p>
+            </div>
+            <div class="viertes">
+                <img src="photos/houses/app.jpg">
+            </div>
+            /*Infor zu zuletzt gebuchten unterkünften*/
+            /*link see more*/
+
+        </div>
+        <h2>Quand voyagez vous?</h2>
+        <button onclick="Search"()">Ajouter des dates</button>
+        /*onclick button to add dates*/
+    </div>
+    <footer>
+        /*anschrift usw plus copyright*/
+    </footer>
+</body>
+</html>
