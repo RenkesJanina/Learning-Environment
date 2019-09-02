@@ -15,6 +15,8 @@ body {
     text-align: center;
     color:white;
     background-image: url("photos/lighthouse.jpg");
+    width: auto; 
+    height: auto;
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -22,18 +24,14 @@ body {
     overflow:hidden;
     display:flex;
     flex-direction: column;
-    
 }
-
 .hero-inner h1 {
-    font-size: 85px;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
 
 
 .hero-inner h2 {
-    font-size: 65px;
     margin-top: 0;
     margin-bottom: 0.5em;
 }
@@ -47,7 +45,6 @@ body {
     margin-right: auto;
     color: white; 
     text-decoration: none;
-    font-size: 1.5em;
     border: 3px solid #F74D38;
     border-radius: 20px;
     background-color: #F74D38;
@@ -58,7 +55,6 @@ body {
 
 .click .btn{
     display: block;
-    width: 200px;
     padding: 1em;
     margin-top: 50px;
     margin-left: auto;
@@ -86,9 +82,9 @@ body {
 .mega{
     display:flex;
     flex-direction: column;
-    text-align: center;
     width: 100%;
     height: auto;
+    overflow: auto;  
 }
 
 .photo1{
@@ -99,42 +95,27 @@ body {
 .hans{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: auto;
-    margin-left: 150px;
 }
 
 .Item1 img{
-    width: 400px;
-    height: auto;
     margin-top: 50px;
 }
 
 .Hugo{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: auto; 
-    margin-left: 150px;
 }
 
 .Item11 img{
-    width: 400px;
-    height: auto;
     margin-top: 50px;
 }
 
 .Anne{
     display: flex;
     flex-direction: column;
-    width: 400px;
-    height: auto; 
-    margin-left: 150px;
 }
 
 .Item12 img{
-    width: 400px;
-    height: auto;
     margin-top: 50px;
 }
 
@@ -144,26 +125,22 @@ body {
 }
 
 .eins>img{
-    width: 350px;
-    height: auto;
+    margin-bottom: 10px;
+}
+
+.eins>img{
     margin-bottom: 10px;
 }
 
 .zwei>img{
-    width: 350px;
-    height: auto;
     margin-bottom: 10px;
 }
 
 .drei>img{
-    width:350px;
-    height: auto;
     margin-bottom: 10px;
 }
 
 .vier>img{
-    width: 350px;
-    height: auto;
     margin-bottom: 10px;
 }
 
@@ -262,7 +239,6 @@ body {
     margin-left: 80px; 
 }
 
-
 .charte{
     display: flex;
     flex-direction: column;
@@ -282,65 +258,19 @@ body {
 .symbol{
     margin-bottom: 50px;
     margin-top: 50px;
-}
-
-.symbol{
     font-size: 50px;
     color: #2EB0B0;
-}
-
-.Ou{
-    margin-left: 450px;
-}
-
-.voyageurs{
-    margin-left: 150px;
-}
-
-.depart{
-    margin-left: 150px; 
 }
 
 .click .btn:hover{
     box-shadow: 0 0 20px 0 #38F7F7;
 }
 
-.click2 .btn{
-    display: block;
-    width: 200px;
-    padding: 1em;
-    margin-top: 10px;
-    margin-left: 15px;
-    margin-right: auto;
-    color: white; 
-    text-decoration: none;
-    font-size: 1.5em;
-    border: 3px solid #F74D38;
-    border-radius: 20px;
-    background-color: #F74D38;
-    justify-content: left;
-}
-
-.click2 .btn:hover{
-    box-shadow: 0 0 20px 0 #38F7F7;
-}
-
-h2{
-   
-}
-
-.others{
-    margin-top: 50px;
-    margin-bottom: 50px;
-    font-size: 15px;
-    margin-left: 15px;
-}
-
 footer{
     display: flex;
     flex-direction: row;
     color: #9DA0A0;
-    margin-left: 200px;
+    overflow: auto;
 }
 
 .h4{
@@ -351,9 +281,6 @@ footer{
 .social{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-bottom: 25px;
-    font-size: 30px;
 }
 
 .poo{
@@ -368,6 +295,7 @@ footer{
     color: #11AAE3;
     margin-bottom: 20px;
     margin-top: 15px;
+    text-align: left;
 }
 .text{
     color: #11AAE3;
@@ -381,10 +309,7 @@ h3 i{
 .alles{
     display:flex;
     flex-direction: column;
-    text-align: center;
-    width: 100%;
-    height: auto;
-   
+    text-align: center; 
 }
 
 .social a:hover{
@@ -393,10 +318,6 @@ h3 i{
 
 .head2{
     text-align: left;
-    margin-left: 100px;
-}
-
-.click2{
     margin-left: 100px;
 }
 
@@ -420,3 +341,242 @@ h3 i{
 .ABC{
     color: #808587;
 }
+
+.click2 .btn{
+    display: block;
+    padding: 1em;
+    margin-top: 10px;
+    margin-left: 15px;
+    margin-right: auto;
+    color: white; 
+    text-decoration: none;
+    font-size: 1.5em;
+    border: 3px solid #F74D38;
+    border-radius: 20px;
+    background-color: #F74D38;
+    justify-content: left;
+}
+.click2 .btn:hover{
+    box-shadow: 0 0 20px 0 #38F7F7;
+}
+
+@media screen and (min-width:200px) {
+    .hero-inner h1{
+        font-size: 20px;
+    }
+    .hero2 h2{
+        font-size: 10px;
+    }
+    .hero2 .btn{
+        font-size: 10px;
+    }
+    .hero3 h2{
+        font-size: 10px;
+    }
+    .hero3 .btn{
+        font-size: 10px;
+    }
+    .click .btn{
+        font-size: 10px;
+        width: 100px;
+        height: auto;
+        }
+    .click2 .btn{
+        font-size: 10px;
+        width: 100px;
+        height: auto;
+        }
+    .social{
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+    footer{
+        margin-left: 20px;
+    }
+    .depart{
+        margin-left: 15px;
+    }
+    .others{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 5px;
+        margin-left: 5px;
+    }
+    .voyageurs{
+        margin-left: 15px;
+    }
+    .Ou{
+        margin-left: 15px;
+    }
+    .voyageurs{
+        margin-left: 150px;
+    }
+    .eins img{
+        width: 100px;
+        height: auto;
+        margin-top: 5px;
+    }
+    .zwei img{
+        width: 100px;
+        height: auto;
+        margin-top: 5px;
+    }
+     .drei img{
+        width: 100px;
+        height: auto;
+        margin-top: 5px;
+    }
+    .vier img{
+        width: 100px;
+        height: auto;
+        margin-top: 5px;
+    }
+    .hans{
+        width: 80%;
+        height: auto;
+        margin-left: 1px;
+        }
+    .Hugo{
+        width: 80%;
+        height: auto;
+        margin-left: 1px;
+    }
+    .Anne{
+        width: 80%;
+        height: auto;
+        margin-left: 1px;
+    }
+    .Item1 img{
+        width: 150px;
+        height: auto;
+        margin-top: 5px;
+    }
+    .Item11 img{
+        width: 150px;
+        height: auto;
+        margin-top: 5px;
+    }
+    .Item12 img{
+        width: 150px;
+        height: auto;
+        margin-top: 5px;
+    }
+    .mega{
+        width: 100%;
+        height: auto;
+    }
+    .click .btn{
+        font-size: 10px;
+        width: 100px;
+        height: auto;
+        }
+    .click2 .btn{
+        font-size: 10px;
+        width: 100px;
+        height: auto;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .hero-inner h1{
+        font-size: 85px;
+    }
+    .hero2 h2{
+        font-size: 1.5em;
+    }
+    .hero2 .btn{
+        font-size: 1.5em;
+    }
+    .hero3 h2{
+        font-size: 1.5em;
+    }
+    .hero3 .btn{
+        font-size: 1.5em;
+    }
+    .click .btn{
+        font-size: 1.5em;
+        width: 200px;
+        height: auto;
+    }
+    .click2 .btn{
+        font-size: 1.5em;
+        width: 200px;
+        height: auto;
+    }
+    .mega{
+        width: 100%;
+        height: auto;
+    }
+    footer{
+        margin-left: 200px;
+    }
+    .social{
+        margin-bottom: 25px;
+        font-size: 30px;
+        justify-content: space-between;
+    }
+    .Ou{
+        margin-left: 450px;
+    }
+    .others{
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 15px;
+        margin-left: 15px;
+    }
+    .depart{
+        margin-left: 150px;
+    }
+    .eins img{
+        width: 350px;
+        height: auto;
+        margin-left: 150px;
+    }
+    .zwei img{
+        width: 350px;
+        height: auto;
+        margin-left: 150px;
+    }
+    .drei img{
+        width: 350px;
+        height: auto;
+        margin-left: 150px;
+    }
+    .vier img{
+        width: 350px;
+        height: auto;
+        margin-left: 150px;
+    }
+    .hans{
+        width: 100%;
+        height: auto;
+        margin-left: 150px;
+        }
+    .Hugo{
+        width: 100%;
+        height: auto;
+        margin-left: 150px;
+    }
+    .Anne{
+        width: 100%;
+        height: auto;
+        margin-left: 150px;
+    }
+    .Item1 img{
+        width: 400px;
+        height: auto;
+        margin-top: 50px;
+    }
+    .Item11 img{
+        width: 400px;
+        height: auto;
+        margin-top: 50px;
+    }
+    .Item12 img{
+        width: 400px;
+        height: auto;
+        margin-top: 50px;
+    }
+}
+
+
